@@ -138,6 +138,6 @@ function isLoggedIn(req, res, next){
 }
 
 
-app.listen(3000, "localhost", function(){
+app.listen(process.env.PORT , "shareyourblog.app.com" , function(){
     console.log("Server Running");
 })
